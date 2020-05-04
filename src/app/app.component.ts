@@ -37,7 +37,7 @@ export class AppComponent {
 
   /**
    * Add post
-   * 
+   *
    * @param string post
    */
   addPost(post) {
@@ -60,11 +60,11 @@ export class AppComponent {
 
   /**
    * Save post into database
-   * 
+   *
    * @param string post
    */
   savePost(post) {
-    let body = JSON.stringify(post);
+    const body = JSON.stringify(post);
     // return this.http.post('/api/food/', body, httpOptions);
   }
 
